@@ -1,21 +1,6 @@
-# A Wix Events and Wix eCommerce Next.js Music Tour Template
+# Nextjs FormToTable
 
-> Join the [Wix Headless community on Discord](https://discord.gg/47gUT9KabP) to get official support, interact with fellow Wix Headless developers and get updates on new releases.
-
-![Template showcase](docs/media/template-showcase.gif)
-
-This template is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Wix Headless](https://dev.wix.com/api/sdk/about-wix-headless/overview) to leverage the Wix Events and Wix Stores business solutions for managing event ticketing and a store.
-
-## Local Development
-
-Prerequisites:
-
-1. [Create a Wix Headless project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/create-a-project)
-2. [Add the Stores and Events apps to your project](https://dev.wix.com/docs/go-headless/getting-started/setup/general-setup/add-apps-to-a-project)
-3. Authorize the template with [quick start deployment](https://manage.wix.com/headless-funnel-nextjs/select-platform?templateName=commerce-ticketing) or by [creating an OAuth app](https://dev.wix.com/docs/go-headless/getting-started/setup/authorization/create-an-o-auth-app-for-visitors-and-members)
-4. [Set up your project's eCommerce settings](https://www.wix.com/my-account/site-selector/?buttonText=Select%20Site&title=Select%20a%20Site&autoSelectOnSingleSite=true&actionUrl=https:%2F%2Fwww.wix.com%2Fdashboard%2F%7B%7BmetaSiteId%7D%7D%2Fstore/settings)
-
-Set up environment variables to consume Wix Headless APIs:
+##Set up environment variables to consume Wix Headless APIs:
 
 1. In the template's root folder, create a file for the local environment variables:
    ```sh
@@ -40,10 +25,6 @@ Run the development server:
 
 2. Open http://localhost:3000 in your browser to see the template home page.
 
-Edit the template:
-
-- Start editing the homepage by modifying **app/page.tsx**. The page auto-updates as you edit the file.
-- Edit any other page using the pattern **app/page.tsx**. For more information, see [Defining Routes](https://beta.nextjs.org/docs/routing/defining-routes) in the Next.js documentation.
 
 # Deployment
 
